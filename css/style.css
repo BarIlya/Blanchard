@@ -391,13 +391,13 @@ header {
 } 
 
 .hero__slide:nth-child(1) {
-  background: url(./img/hero_picture_1.jpg) bottom/cover no-repeat;
+  background: url(../img/hero_picture_1.jpg) bottom/cover no-repeat;
 }
 .hero__slide:nth-child(2) {
-  background: url(./img/hero_picture_2.jpg) bottom/cover no-repeat;
+  background: url(../img/hero_picture_2.jpg) bottom/cover no-repeat;
 }
 .hero__slide:nth-child(3) {
-  background: url(./img/hero_picture_3.jpg) bottom/cover no-repeat;
+  background: url(../img/hero_picture_3.jpg) bottom/cover no-repeat;
 }
 
 /*------------------------------ section-about ------------------------------*/
@@ -411,7 +411,7 @@ header {
 /*------------------------------ section gallery ------------------------------*/
 .gallery {
   height: calc(763px + 62*var(--multiplier));
-  background: url(./img/background_gallery_320.jpg) bottom/cover no-repeat;
+  background: url(../img/background_gallery_320.jpg) bottom/cover no-repeat;
 }
 .gallery__title {
   color: #FFFFFF;
@@ -587,22 +587,22 @@ header {
 }
 
 .gallery__slide:nth-child(1) {
-  background: url(./img/gallery_picture_1_320.jpg) bottom/contain no-repeat;
+  background: url(../img/gallery_picture_1_320.jpg) bottom/contain no-repeat;
 }
 .gallery__slide:nth-child(2) {
-  background: url(./img/gallery_picture_2_320.jpg) bottom/contain no-repeat;
+  background: url(../img/gallery_picture_2_320.jpg) bottom/contain no-repeat;
 }
 .gallery__slide:nth-child(3) {
-  background: url(./img/gallery_picture_3_320.jpg) bottom/contain no-repeat;
+  background: url(../img/gallery_picture_3_320.jpg) bottom/contain no-repeat;
 }
 .gallery__slide:nth-child(4) {
-  background: url(./img/gallery_picture_4_320.jpg) bottom/contain no-repeat;
+  background: url(../img/gallery_picture_4_320.jpg) bottom/contain no-repeat;
 }
 .gallery__slide:nth-child(5) {
-  background: url(./img/gallery_picture_5_320.jpg) bottom/contain no-repeat;
+  background: url(../img/gallery_picture_5_320.jpg) bottom/contain no-repeat;
 }
 .gallery__slide:nth-child(6) {
-  background: url(./img/gallery_picture_6_320.jpg) bottom/contain no-repeat;
+  background: url(../img/gallery_picture_6_320.jpg) bottom/contain no-repeat;
 }
 
 .gallery__swiper_next, .gallery__swiper_prev {
@@ -920,7 +920,7 @@ header {
   vertical-align: middle;
   width: 16px;
   height: 16px;
-  background: url(.'/img/tabs_lable.svg') no-repeat;
+  background: url('../img/tabs_lable.svg') no-repeat;
   margin: 0 1px 0 -1px;
 	transition: background-color .3s;
 }
@@ -928,7 +928,7 @@ header {
 	background-color: var(--color-main-light)
 }
 .projects__marker:active {
-	background: url(.'/img/tabs_lable_active.svg') no-repeat;
+	background: url('../img/tabs_lable_active.svg') no-repeat;
 }
 .projects__marker:hover .projects__popup {
 	opacity: 1;
@@ -1163,7 +1163,7 @@ header {
 }
 .whatsapp_icon {
   box-sizing: border-box;
-  background: url(./img/whatsapp_icon.svg) no-repeat;
+  background: url(../img/whatsapp_icon.svg) no-repeat;
   background-size: contain;
   height: max(39px, calc(49px - 10*var(--multiplier)));
   width: max(39px, calc(49px - 10*var(--multiplier)));
@@ -1173,7 +1173,7 @@ header {
   border: 1px solid #30BF39;
 }
 .telegram_icon {
-  background: url(./img/telegram_icon.svg) no-repeat;
+  background: url(../img/telegram_icon.svg) no-repeat;
   background-size: contain;
 }
 
@@ -1244,13 +1244,13 @@ header {
     font-weight: 600;
   }
   .hero__slide:nth-child(1) {
-    background: url(./img/hero_picture_1_768.jpg) bottom/cover no-repeat;
+    background: url(../img/hero_picture_1_768.jpg) bottom/cover no-repeat;
   }
   .hero__slide:nth-child(2) {
-    background: url(./img/hero_picture_2_768.jpg) bottom/cover no-repeat;
+    background: url(../img/hero_picture_2_768.jpg) bottom/cover no-repeat;
   }
   .hero__slide:nth-child(3) {
-    background: url(./img/hero_picture_3_768.jpg) bottom/cover no-repeat;
+    background: url(../img/hero_picture_3_768.jpg) bottom/cover no-repeat;
   }
   /* ------------------------------ Hero ------------------------------------ */
   .hero__container {
@@ -1267,7 +1267,7 @@ header {
 
 /*------------------------------ section gallery ------------------------------*/
   .gallery {
-    background: url(./img/background_gallery_768.jpg) bottom/cover no-repeat;
+    background: url(../img/background_gallery_768.jpg) bottom/cover no-repeat;
   }
   .gallery__checkbox__container {
     margin-bottom: 101px;
@@ -1280,22 +1280,22 @@ header {
     left: 49px;
   }
   .gallery__slide:nth-child(1) {
-    background: url(./img/gallery_picture_1_768.jpg) bottom/contain no-repeat;
+    background: url(../img/gallery_picture_1_768.jpg) bottom/contain no-repeat;
   }
   .gallery__slide:nth-child(2) {
-    background: url(./img/gallery_picture_2_768.jpg) bottom/contain no-repeat;
+    background: url(../img/gallery_picture_2_768.jpg) bottom/contain no-repeat;
   }
   .gallery__slide:nth-child(3) {
-    background: url(./img/gallery_picture_3_768.jpg) bottom/contain no-repeat;
+    background: url(../img/gallery_picture_3_768.jpg) bottom/contain no-repeat;
   }
   .gallery__slide:nth-child(4) {
-    background: url(./img/gallery_picture_4_768.jpg) bottom/contain no-repeat;
+    background: url(../img/gallery_picture_4_768.jpg) bottom/contain no-repeat;
   }
   .gallery__slide:nth-child(5) {
-    background: url(./img/gallery_picture_5_768.jpg) bottom/contain no-repeat;
+    background: url(../img/gallery_picture_5_768.jpg) bottom/contain no-repeat;
   }
   .gallery__slide:nth-child(6) {
-    background: url(./img/gallery_picture_6_768.jpg) bottom/contain no-repeat;
+    background: url(../img/gallery_picture_6_768.jpg) bottom/contain no-repeat;
   }
 
   .gallery__swiper_pagination, .gallery__swiper_next, .gallery__swiper_prev {
@@ -1450,13 +1450,13 @@ header {
     font-weight: 500;
   }
   .hero__slide:nth-child(1) {
-    background: url(./img/hero_picture_1_1024.jpg) bottom/cover no-repeat;
+    background: url(../img/hero_picture_1_1024.jpg) bottom/cover no-repeat;
   }
   .hero__slide:nth-child(2) {
-    background: url(./img/hero_picture_2_1024.jpg) bottom/cover no-repeat;
+    background: url(../img/hero_picture_2_1024.jpg) bottom/cover no-repeat;
   }
   .hero__slide:nth-child(3) {
-    background: url(./img/hero_picture_3_1024.jpg) bottom/cover no-repeat;
+    background: url(../img/hero_picture_3_1024.jpg) bottom/cover no-repeat;
   }
 
  /*------------------------------ section about ------------------------------*/
@@ -1467,7 +1467,7 @@ header {
   .gallery {
     box-sizing: border-box;
     height: min(595px, (560px + 35*var(--multiplier_1024)));
-    background: url(./img/background_gallery_1024.jpg) bottom/cover no-repeat;
+    background: url(../img/background_gallery_1024.jpg) bottom/cover no-repeat;
     margin-bottom: 0;
   }
   .gallery__container {
@@ -1520,22 +1520,22 @@ header {
     font-size: 15px;
   }
   .gallery__slide:nth-child(1) {
-    background: url(./img/gallery_picture_1_1024.jpg) bottom/contain no-repeat;
+    background: url(../img/gallery_picture_1_1024.jpg) bottom/contain no-repeat;
   }
   .gallery__slide:nth-child(2) {
-    background: url(./img/gallery_picture_2_1024.jpg) bottom/contain no-repeat;
+    background: url(../img/gallery_picture_2_1024.jpg) bottom/contain no-repeat;
   }
   .gallery__slide:nth-child(3) {
-    background: url(./img/gallery_picture_3_1024.jpg) bottom/contain no-repeat;
+    background: url(../img/gallery_picture_3_1024.jpg) bottom/contain no-repeat;
   }
   .gallery__slide:nth-child(4) {
-    background: url(./img/gallery_picture_4_1024.jpg) bottom/contain no-repeat;
+    background: url(../img/gallery_picture_4_1024.jpg) bottom/contain no-repeat;
   }
   .gallery__slide:nth-child(5) {
-    background: url(./img/gallery_picture_5_1024.jpg) bottom/contain no-repeat;
+    background: url(../img/gallery_picture_5_1024.jpg) bottom/contain no-repeat;
   }
   .gallery__slide:nth-child(6) {
-    background: url(./img/gallery_picture_6_1024.jpg) bottom/contain no-repeat;
+    background: url(../img/gallery_picture_6_1024.jpg) bottom/contain no-repeat;
   }
   .gallery__swiper_next, .gallery__swiper_prev {
     top: 11%;
@@ -1801,13 +1801,13 @@ header {
   }
 
   .hero__slide:nth-child(1) {
-    background: url(./img/hero_picture_1_1700.jpg) bottom/cover no-repeat;
+    background: url(../img/hero_picture_1_1700.jpg) bottom/cover no-repeat;
   }
   .hero__slide:nth-child(2) {
-    background: url(./img/hero_picture_2_1700.jpg) bottom/cover no-repeat;
+    background: url(../img/hero_picture_2_1700.jpg) bottom/cover no-repeat;
   }
   .hero__slide:nth-child(3) {
-    background: url(./img/hero_picture_3_1700.jpg) bottom/cover no-repeat;
+    background: url(../img/hero_picture_3_1700.jpg) bottom/cover no-repeat;
   }
   /*------------------------------ second heder ------------------------------ */
   .heder__second {
@@ -1938,163 +1938,163 @@ header {
     width: 109px;
   }
   .realism__item li:nth-child(1) {
-    background: linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%), url(./img/dropdwn_backgnd_1_1.png) center;
+    background: linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%), url(../img/dropdwn_backgnd_1_1.png) center;
   }
   .realism__item li:nth-child(1)::after {
     content: 'Тинторетто';
   }
   .realism__item li:nth-child(2) {
-    background: linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%), url(./img/dropdwn_backgnd_1_2.png) center;
+    background: linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%), url(../img/dropdwn_backgnd_1_2.png) center;
   }
   .realism__item li:nth-child(2)::after {
     content: 'Фридрих';
   }
   .realism__item li:nth-child(3) {
-    background: linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%), url(./img/dropdwn_backgnd_1_3.png) center;
+    background: linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%), url(../img/dropdwn_backgnd_1_3.png) center;
   }
   .realism__item li:nth-child(3)::after {
     content: 'Леонардо';
   }
   .realism__item li:nth-child(4) {
-    background: linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%), url(./img/dropdwn_backgnd_1_4.png) center;
+    background: linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%), url(../img/dropdwn_backgnd_1_4.png) center;
   }
   .realism__item li:nth-child(4)::after {
     content: 'Верроккьо';
   }
   .realism__item li:nth-child(5) {
-    background: linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%), url(./img/Repin.png) center;
+    background: linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%), url(../img/Repin.png) center;
   }
   .realism__item li:nth-child(5)::after {
     content: 'Илья Репин';
   }
   .realism__item li:nth-child(6) {
-    background: linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%), url(./img/Eakins.png) center;
+    background: linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%), url(../img/Eakins.png) center;
   }
   .realism__item li:nth-child(6)::after {
     content: 'Томас Икинс';
   }
   .realism__item li:nth-child(7) {
-    background: linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%), url(./img/Courbet.png) center;
+    background: linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%), url(../img/Courbet.png) center;
   }
   .realism__item li:nth-child(7)::after {
     content: 'Гюстав Курбе';
   }
   .realism__item li:nth-child(8) {
-    background: linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%), url(./img/Hopper.png) center;
+    background: linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%), url(../img/Hopper.png) center;
   }
   .realism__item li:nth-child(8)::after {
     content: 'Эдвард Хоппер';
   }
   .impressionism__item li:nth-child(1) {
-    background: linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%), url(./img/Sisley.png) center;
+    background: linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%), url(../img/Sisley.png) center;
   }
   .impressionism__item li:nth-child(1)::after {
     content: 'Альфред Сислей'
   }
   .impressionism__item li:nth-child(2) {
-    background: linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%), url(./img/Pissarro.png) center;
+    background: linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%), url(../img/Pissarro.png) center;
   }
   .impressionism__item li:nth-child(2)::after {
     content: 'Камиль Писсарро'
   }
   .impressionism__item li:nth-child(3) {
-    background: linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%), url(./img/Monet.png) center;
+    background: linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%), url(../img/Monet.png) center;
   }
   .impressionism__item li:nth-child(3)::after {
     content: 'Клод Моне'
   }
   .impressionism__item li:nth-child(4) {
-    background: linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%), url(./img/Korovin.png) center;
+    background: linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%), url(../img/Korovin.png) center;
   }
   .impressionism__item li:nth-child(4)::after {
     content: 'Константин Коровин'
   }
   .impressionism__item li:nth-child(5) {
-    background: linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%), url(./img/Renoir.png) center;
+    background: linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%), url(../img/Renoir.png) center;
   }
   .impressionism__item li:nth-child(5)::after {
     content: 'Пьер Огюст Ренуар'
   }
   .impressionism__item li:nth-child(6) {
-    background: linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%), url(./img/Degas.png) center;
+    background: linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%), url(../img/Degas.png) center;
   }
   .impressionism__item li:nth-child(6)::after {
     content: 'Эдгар Дега'
   }
   .impressionism__item li:nth-child(7) {
-    background: linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%), url(./img/Manet.png) center;
+    background: linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%), url(../img/Manet.png) center;
   }
   .impressionism__item li:nth-child(7)::after {
     content: 'Эдуард Мане'
   }
   .postimpressionism__item li:nth-child(1) {
-    background: linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%), url(./img/Van_Gogh.png) center;
+    background: linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%), url(../img/Van_Gogh.png) center;
   }
   .postimpressionism__item li:nth-child(1)::after {
     content: 'Ван Гог'
   }
   .postimpressionism__item li:nth-child(2) {
-    background: linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%), url(./img/Gauguin.png) center;
+    background: linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%), url(../img/Gauguin.png) center;
   }
   .postimpressionism__item li:nth-child(2)::after {
     content: 'Поль Гоген'
   }
   .postimpressionism__item li:nth-child(3) {
-    background: linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%), url(./img/Munch.png) center;
+    background: linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%), url(../img/Munch.png) center;
   }
   .postimpressionism__item li:nth-child(3)::after {
     content: 'Эдвард Мунк'
   }
   .postimpressionism__item li:nth-child(4) {
-    background: linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%), url(./img/Cezanne.png) center;
+    background: linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%), url(../img/Cezanne.png) center;
   }
   .postimpressionism__item li:nth-child(4)::after {
     content: 'Поль Сезанн'
   }
   .avantgarde__item li:nth-child(1) {
-    background: linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%), url(./img/Tatlin.png) center;
+    background: linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%), url(../img/Tatlin.png) center;
   }
   .avantgarde__item li:nth-child(1)::after {
     content: 'Татлин';
   }
   .avantgarde__item li:nth-child(2) {
-    background: linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%), url(./img/Chagall.png) center;
+    background: linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%), url(../img/Chagall.png) center;
   }
   .avantgarde__item li:nth-child(2)::after {
     content: 'Шагал';
   }
   .avantgarde__item li:nth-child(3) {
-    background: linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%) center, url(./img/Dali.png) center;
+    background: linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%) center, url(../img/Dali.png) center;
   }
   .avantgarde__item li:nth-child(3)::after {
     content: 'Дали';
   }
   .avantgarde__item li:nth-child(4) {
-    background: linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%) center, url(./img/Prince.png) center;
+    background: linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%) center, url(../img/Prince.png) center;
   }
   .avantgarde__item li:nth-child(4)::after {
     content: 'Принс';
   }
   .avantgarde__item li:nth-child(5) {
-    background: linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%), url(./img/Richter.png) center;
+    background: linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%), url(../img/Richter.png) center;
   }
   .avantgarde__item li:nth-child(5)::after {
     content: 'Рихтер';
   }
   .futurism__item li:nth-child(1) {
-    background: linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%), url(./img/Boccioni.png) center;
+    background: linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%), url(../img/Boccioni.png) center;
   }
   .futurism__item li:nth-child(1)::after {
     content: 'Боччини';
   }
   .futurism__item li:nth-child(2) {
-    background: linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%), url(./img/Balla.png) center;
+    background: linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%), url(../img/Balla.png) center;
   }
   .futurism__item li:nth-child(2)::after {
     content: 'Балла';
   }
   .futurism__item li:nth-child(3) {
-    background: linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%), url(./img/Burliuk.png) center;
+    background: linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%), url(../img/Burliuk.png) center;
   }
   .futurism__item li:nth-child(3)::after {
     content: 'Бурлюк';
@@ -2218,7 +2218,7 @@ header {
   /*------------------------------ section gallery -----------------------------*/
   .gallery {
     margin-bottom: 3px;
-    background: url(./img/background_gallery_1700.jpg) bottom/cover no-repeat;
+    background: url(../img/background_gallery_1700.jpg) bottom/cover no-repeat;
   }
   /*------------------------------ gallery swiper ------------------------------*/
   .gallery__swiper__container {
@@ -2226,22 +2226,22 @@ header {
     width: 1149px;
   }
   .gallery__slide:nth-child(1) {
-    background: url(./img/gallery_picture_1_1700.jpg) bottom/contain no-repeat;
+    background: url(../img/gallery_picture_1_1700.jpg) bottom/contain no-repeat;
   }
   .gallery__slide:nth-child(2) {
-    background: url(./img/gallery_picture_2_1700.jpg) bottom/contain no-repeat;
+    background: url(../img/gallery_picture_2_1700.jpg) bottom/contain no-repeat;
   }
   .gallery__slide:nth-child(3) {
-    background: url(./img/gallery_picture_3_1700.jpg) bottom/contain no-repeat;
+    background: url(../img/gallery_picture_3_1700.jpg) bottom/contain no-repeat;
   }
   .gallery__slide:nth-child(4) {
-    background: url(./img/gallery_picture_4_1700.jpg) bottom/contain no-repeat;
+    background: url(../img/gallery_picture_4_1700.jpg) bottom/contain no-repeat;
   }
   .gallery__slide:nth-child(5) {
-    background: url(./img/gallery_picture_5_1700.jpg) bottom/contain no-repeat;
+    background: url(../img/gallery_picture_5_1700.jpg) bottom/contain no-repeat;
   }
   .gallery__slide:nth-child(6) {
-    background: url(./img/gallery_picture_6_1700.jpg) bottom/contain no-repeat;
+    background: url(../img/gallery_picture_6_1700.jpg) bottom/contain no-repeat;
   }
   /*------------------------------ catalog section ------------------------------*/
   /*------------------------------ catalog accordion ---------------------------*/
